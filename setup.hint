@@ -1,4 +1,3 @@
 category: X11
-requires: cygwin libX11 libXrender libfontconfig-devel libfreetype2-devel
-sdesc: "Xorg X Freetype library (development)"
+sdesc: "Xorg X Freetype library (documentation)"
 ldesc: "Xorg X Freetype library"
