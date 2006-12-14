@@ -35,29 +35,29 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libXft-2.1.11-X-src.tar.bz2
+  unpack libXft-2.1.12-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libXft-2.1.11-X.cygport all
+  cygport ./libXft-2.1.12-X.cygport all
 
 This will create:
-  /usr/src/libXft-2.1.11-X-src.tar.bz2
-  /usr/src/libXft-2.1.11-X.tar.bz2
-  /usr/src/libXft-devel-2.1.11-X.tar.bz2
-  /usr/src/libXft2-2.1.11-X.tar.bz2
+  /usr/src/libXft-2.1.12-X-src.tar.bz2
+  /usr/src/libXft-2.1.12-X.tar.bz2
+  /usr/src/libXft-devel-2.1.12-X.tar.bz2
+  /usr/src/libXft2-2.1.12-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
 (libXft)
-  /usr/share/doc/Cygwin/libXft-2.1.11.README
-  /usr/share/doc/libXft-2.1.11/AUTHORS
-  /usr/share/doc/libXft-2.1.11/COPYING
-  /usr/share/doc/libXft-2.1.11/ChangeLog
-  /usr/share/doc/libXft-2.1.11/INSTALL
-  /usr/share/doc/libXft-2.1.11/README
+  /usr/share/doc/Cygwin/libXft-2.1.12.README
+  /usr/share/doc/libXft-2.1.12/AUTHORS
+  /usr/share/doc/libXft-2.1.12/COPYING
+  /usr/share/doc/libXft-2.1.12/ChangeLog
+  /usr/share/doc/libXft-2.1.12/INSTALL
+  /usr/share/doc/libXft-2.1.12/README
   /usr/share/man/man3/Xft.3.gz
 
 (libXft2)
@@ -76,6 +76,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.1.12-1 -----
+Version bump.
 
 ----- version 2.1.11-1 -----
 X11R7.2 version bump.
