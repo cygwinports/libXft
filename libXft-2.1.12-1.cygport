@@ -1,7 +1,0 @@
-inherit xorg
-
-PKG_NAMES="${PN} ${PN}2 ${PN}-devel"
-PKG_HINTS="setup runtime devel"
-PKG_CONTENTS[0]='--exclude=man1 usr/share/'
-PKG_CONTENTS[1]='usr/bin/*.dll'
-PKG_CONTENTS[2]='etc/ usr/bin/xft-config usr/include/ usr/lib/ usr/share/man/man1/'
