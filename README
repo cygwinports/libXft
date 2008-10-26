@@ -14,7 +14,7 @@ Build requirements:
   autoconf2.5-2.63-1
   automake1.10-1.10.1-1
   binutils-20080624-2
-  cygport-0.4.1-1
+  cygport-0.4.2-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   libtool-2.2.6a-1
@@ -23,7 +23,7 @@ Build requirements:
   sed-4.1.5-2
   renderproto-0.9.3-1
   xorg-util-macros-1.1.6-1
-  xproto-7.0.13-1
+  xproto-7.0.14-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -63,6 +63,7 @@ Files included in the binary packages:
   /usr/bin/xft-config
   /usr/include/X11/Xft/Xft.h
   /usr/include/X11/Xft/XftCompat.h
+  /usr/lib/libXft.a
   /usr/lib/libXft.dll.a
   /usr/lib/libXft.la
   /usr/lib/pkgconfig/xft.pc
