@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libX11_6 libXrender1 libfontconfig1 libfreetype26
+requires: cygwin libfontconfig1 libfreetype6 libgcc1 libX11_6 libXrender1
 external-source: libXft
 sdesc: "X.Org X Freetype library (runtime)"
 ldesc: "X.Org X Freetype library"

@@ -5,4 +5,4 @@ PKG_NAMES="${PN} ${PN}${abi} ${PN}-devel"
 PKG_HINTS="setup runtime devel"
 PKG_CONTENTS[0]=	# empty
 PKG_CONTENTS[1]="usr/bin/*-${abi}.dll usr/share/doc/"
-PKG_CONTENTS[2]='etc/ usr/bin/xft-config usr/include/ usr/lib/ usr/share/man/'
+PKG_CONTENTS[2]='usr/bin/xft-config usr/include/ usr/lib/ usr/share/man/'
