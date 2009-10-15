@@ -3,28 +3,28 @@ libXft
 X.Org X Freetype library
 
 Runtime requirements:
-  cygwin-1.7.0-43
-  libfontconfig1-2.6.0-10
-  libfreetype6-2.3.9-1
-  libgcc1-4.3.2-2
-  libX11_6-1.2-10
-  libXrender1-0.9.4-10
+  cygwin-1.7.0-62
+  libfontconfig1-2.7.3-1
+  libfreetype6-2.3.9-2
+  libgcc1-4.3.4-1
+  libX11_6-1.3-1
+  libXrender1-0.9.5-1
 
 Build requirements:
 (besides corresponding devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  libtool-2.2.7a-1
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  libtool-2.2.7a-14
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
-  renderproto-0.9.3-1
-  xorg-util-macros-1.2.1-1
-  xproto-7.0.15-1
+  renderproto-0.11-1
+  xorg-util-macros-1.3.0-1
+  xproto-7.0.16-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -35,43 +35,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libXft-2.1.13-X-src.tar.bz2
+  unpack libXft-2.1.14-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libXft-2.1.13-X.cygport all
+  cygport ./libXft-2.1.14-X.cygport all
 
 This will create:
-  /usr/src/libXft-2.1.13-X-src.tar.bz2
-  /usr/src/libXft-devel-2.1.13-X.tar.bz2
-  /usr/src/libXft2-2.1.13-X.tar.bz2
+  /usr/src/libXft-2.1.14-X-src.tar.bz2
+  /usr/src/libXft-devel-2.1.14-X.tar.bz2
+  /usr/src/libXft2-2.1.14-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libXft2)
-  /usr/bin/cygXft-2.dll
-  /usr/share/doc/libXft/AUTHORS
-  /usr/share/doc/libXft/COPYING
-  /usr/share/doc/libXft/ChangeLog
-  /usr/share/doc/libXft/README
-
-(libXft-devel)
-  /etc/postinstall/libXft.sh
-  /usr/bin/xft-config
-  /usr/include/X11/Xft/Xft.h
-  /usr/include/X11/Xft/XftCompat.h
-  /usr/lib/libXft.a
-  /usr/lib/libXft.dll.a
-  /usr/lib/libXft.la
-  /usr/lib/pkgconfig/xft.pc
-  /usr/share/man/man1/xft-config.1.gz
-  /usr/share/man/man3/Xft.3.gz
-
-------------------
-
 Port Notes:
+
+----- version 2.1.14-1 -----
+Version bump for X11R7.5.
 
 ----- version 2.1.13-10 -----
 Initial release for Cygwin 1.7.
