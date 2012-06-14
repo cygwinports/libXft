@@ -1,7 +1,6 @@
 inherit xorg
 
-PKG_NAMES="${PN} ${PN}2 ${PN}-devel"
-PKG_HINTS="setup runtime devel"
-libXft_CONTENTS=	# empty
+PKG_NAMES="${PN}2 ${PN}-devel"
+PKG_HINTS="runtime devel"
 libXft2_CONTENTS="usr/bin/*-2.dll usr/share/doc/"
 libXft_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/'
