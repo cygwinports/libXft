@@ -1,5 +1,0 @@
-category: X11
-requires: libfontconfig1 libfreetype6 libX11_6 libXrender1
-external-source: libXft
-sdesc: "X.Org X Freetype library (runtime)"
-ldesc: "X.Org X Freetype library"

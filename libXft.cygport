@@ -1,6 +1,12 @@
 inherit xorg
 
+NAME="libXft"
+VERSION=2.3.1
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org X Freetype library"
+DESCRIPTION="X.Org X Freetype library"
+
 PKG_NAMES="${PN}2 ${PN}-devel"
-PKG_HINTS="runtime devel"
 libXft2_CONTENTS="usr/bin/*-2.dll usr/share/doc/"
 libXft_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/'
